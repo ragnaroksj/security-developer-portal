@@ -1,0 +1,21 @@
+{
+    "h1": "简单例子",
+    "change-locale": "Change locale to \"{{changeTo}}\"",
+    "to-second-page": "第二页",
+    "index": "关于开发者信息",
+    "error-with-status": "A {{statusCode}} error occurred on server",
+    "error-without-status": "服务器出错",
+    "title": "首页 | next-i18next",
+    "blog": {
+      "optimized": {
+        "question": "你喜欢吗?",
+        "answer": "可以参考 <1>该文章</1>.",
+        "link": "https://locize.com/blog/next-i18next/"
+      },
+      "ssg": {
+        "question": "你使用吗 (next export)?",
+        "answer": "可以参考 <1>该文章</1>.",
+        "link": "https://locize.com/blog/next-i18n-static/"
+      }
+    }
+}  
