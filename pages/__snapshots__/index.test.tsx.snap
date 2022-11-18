@@ -1,0 +1,324 @@
+// Vitest Snapshot v1
+
+exports[`home > getStaticProps 1`] = `
+{
+  "props": {
+    "_nextI18Next": {
+      "initialI18nStore": {
+        "en": {
+          "common": {
+            "blog": {
+              "optimized": {
+                "answer": "Then you may have a look at <1>this blog post</1>.",
+                "link": "https://locize.com/blog/next-i18next/",
+                "question": "Do you like to unleash some super powers to have all side optimized translations?",
+              },
+              "ssg": {
+                "answer": "Then you may have a look at <1>this blog post</1>.",
+                "link": "https://locize.com/blog/next-i18n-static/",
+                "question": "Do you want to use SSG (next export)?",
+              },
+            },
+            "change-locale": "Change locale to \\"{{changeTo}}\\"",
+            "error-with-status": "A {{statusCode}} error occurred on server",
+            "error-without-status": "An error occurred on the server",
+            "h1": "A simple example",
+            "index": "About Security Developer portal information",
+            "title": "Home | next-i18next",
+            "to-second-page": "To second page",
+          },
+        },
+      },
+      "initialLocale": "en",
+      "ns": [
+        "common",
+      ],
+      "userConfig": {
+        "default": {
+          "i18n": {
+            "defaultLocale": "en",
+            "localeDetection": false,
+            "locales": [
+              "en",
+              "cn",
+              "de",
+            ],
+          },
+        },
+        "i18n": {
+          "defaultLocale": "en",
+          "localeDetection": false,
+          "locales": [
+            "en",
+            "cn",
+            "de",
+          ],
+        },
+      },
+    },
+    "allPostsData": [
+      {
+        "date": "2022-01-02",
+        "id": "ssg-ssr",
+        "title": "When to Use Static Generation v.s. Server-side Rendering",
+      },
+      {
+        "date": "2022-01-01",
+        "id": "pre-rendering",
+        "title": "Two Forms of Pre-rendering",
+      },
+    ],
+  },
+}
+`;
+
+exports[`home > renders homepage correctly 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="_container_522a10"
+      >
+        <header
+          class="_header_522a10"
+        >
+          <img
+            alt="Security Developer Portal"
+            class="_borderCircle_37fb83"
+            data-nimg="1"
+            decoding="async"
+            height="144"
+            src="/_next/image?url=%2Fimages%2Fprofile.jpg&w=384&q=75"
+            srcset="/_next/image?url=%2Fimages%2Fprofile.jpg&w=256&q=75 1x, /_next/image?url=%2Fimages%2Fprofile.jpg&w=384&q=75 2x"
+            style="color: transparent;"
+            width="144"
+          />
+          <h1
+            class="_heading2Xl_37fb83"
+          >
+            Security Developer Portal
+          </h1>
+        </header>
+        <main>
+          <section
+            class="_headingMd_37fb83"
+          >
+            <p>
+              index
+            </p>
+            <p>
+              (This is a sample website - you’ll be building a site like this in
+               
+              <a
+                href="https://nextjs.org/learn"
+              >
+                our Next.js tutorial
+              </a>
+              .)
+            </p>
+          </section>
+          <section
+            class="_headingMd_37fb83 _padding1px_37fb83"
+          >
+            <h2
+              class="_headingLg_37fb83"
+            >
+              Blog
+            </h2>
+            <ul
+              class="_list_37fb83"
+            >
+              <li
+                class="_listItem_37fb83"
+              >
+                <a
+                  href="/posts/a"
+                >
+                  a
+                </a>
+                <br />
+                <small
+                  class="_lightText_37fb83"
+                >
+                  <time
+                    datetime="2022-01-02"
+                  >
+                    January 2, 2022
+                  </time>
+                </small>
+              </li>
+              <li
+                class="_listItem_37fb83"
+              >
+                <a
+                  href="/posts/b"
+                >
+                  b
+                </a>
+                <br />
+                <small
+                  class="_lightText_37fb83"
+                >
+                  <time
+                    datetime="2022-01-02"
+                  >
+                    January 2, 2022
+                  </time>
+                </small>
+              </li>
+            </ul>
+          </section>
+        </main>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="_container_522a10"
+    >
+      <header
+        class="_header_522a10"
+      >
+        <img
+          alt="Security Developer Portal"
+          class="_borderCircle_37fb83"
+          data-nimg="1"
+          decoding="async"
+          height="144"
+          src="/_next/image?url=%2Fimages%2Fprofile.jpg&w=384&q=75"
+          srcset="/_next/image?url=%2Fimages%2Fprofile.jpg&w=256&q=75 1x, /_next/image?url=%2Fimages%2Fprofile.jpg&w=384&q=75 2x"
+          style="color: transparent;"
+          width="144"
+        />
+        <h1
+          class="_heading2Xl_37fb83"
+        >
+          Security Developer Portal
+        </h1>
+      </header>
+      <main>
+        <section
+          class="_headingMd_37fb83"
+        >
+          <p>
+            index
+          </p>
+          <p>
+            (This is a sample website - you’ll be building a site like this in
+             
+            <a
+              href="https://nextjs.org/learn"
+            >
+              our Next.js tutorial
+            </a>
+            .)
+          </p>
+        </section>
+        <section
+          class="_headingMd_37fb83 _padding1px_37fb83"
+        >
+          <h2
+            class="_headingLg_37fb83"
+          >
+            Blog
+          </h2>
+          <ul
+            class="_list_37fb83"
+          >
+            <li
+              class="_listItem_37fb83"
+            >
+              <a
+                href="/posts/a"
+              >
+                a
+              </a>
+              <br />
+              <small
+                class="_lightText_37fb83"
+              >
+                <time
+                  datetime="2022-01-02"
+                >
+                  January 2, 2022
+                </time>
+              </small>
+            </li>
+            <li
+              class="_listItem_37fb83"
+            >
+              <a
+                href="/posts/b"
+              >
+                b
+              </a>
+              <br />
+              <small
+                class="_lightText_37fb83"
+              >
+                <time
+                  datetime="2022-01-02"
+                >
+                  January 2, 2022
+                </time>
+              </small>
+            </li>
+          </ul>
+        </section>
+      </main>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
