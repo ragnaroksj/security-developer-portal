@@ -1,6 +1,6 @@
 import { expect, it, describe } from 'vitest'
 import { render, screen, within } from '@testing-library/react'
-import Home, { getStaticProps } from './index'
+import Home, { getStaticProps } from '../pages/index'
 
 describe('home', () => {
   it('renders homepage correctly', () => {
