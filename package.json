@@ -5,6 +5,7 @@
     "build": "next build",
     "start": "next start",
     "test": "vitest run",
+    "coverage:noopn": "vitest run --coverage;",
     "coverage": "vitest run --coverage; open-cli coverage/index.html;",
     "lint": "npm run lint:js && npm run lint:css",
     "lint:js": "next lint",
