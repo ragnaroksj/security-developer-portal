@@ -3,7 +3,9 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "test": "vitest",
+    "coverage": "vitest run --coverage; open-cli coverage/index.html;"
   },
   "dependencies": {
     "date-fns": "^2.29.3",
@@ -18,8 +20,14 @@
     "remark-html": "^15.0.1"
   },
   "devDependencies": {
+    "@testing-library/react": "^13.4.0",
     "@types/node": "^18.11.9",
     "@types/react": "^18.0.25",
-    "typescript": "^4.9.3"
+    "@vitejs/plugin-react": "^2.2.0",
+    "@vitest/coverage-c8": "^0.25.2",
+    "jsdom": "^20.0.2",
+    "open-cli": "^7.1.0",
+    "typescript": "^4.9.3",
+    "vitest": "^0.25.2"
   }
 }
