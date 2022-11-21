@@ -5,7 +5,8 @@
     "index": "About Security Developer portal information",
     "error-with-status": "A {{statusCode}} error occurred on server",
     "error-without-status": "An error occurred on the server",
-    "title": "Home | next-i18next",
+    "title": "Security for Developer",
+    "login": "login",
     "blog": {
       "optimized": {
         "question": "Do you like to unleash some super powers to have all side optimized translations?",

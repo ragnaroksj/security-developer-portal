@@ -5,7 +5,8 @@
     "index": "aa bb cc dd ee",
     "error-with-status": "Auf dem Server ist ein Fehler ({{statusCode}}) aufgetreten",
     "error-without-status": "Auf dem Server ist ein Fehler aufgetreten",
-    "title": "Hauptseite | next-i18next",
+    "title": "Security DE",
+    "login": "sign in",
     "blog": {
       "optimized": {
         "question": "Möchtest du einige Superkräfte entfesseln, um für alle Seiten optimierte Übersetzungen zu haben?",
