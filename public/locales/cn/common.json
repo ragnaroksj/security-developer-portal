@@ -5,7 +5,8 @@
     "index": "关于开发者信息",
     "error-with-status": "A {{statusCode}} error occurred on server",
     "error-without-status": "服务器出错",
-    "title": "首页 | next-i18next",
+    "title": "Security 开发者网站",
+    "login": "登入",
     "blog": {
       "optimized": {
         "question": "你喜欢吗?",
