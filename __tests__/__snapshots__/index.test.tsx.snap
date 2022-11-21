@@ -24,7 +24,8 @@ exports[`home > getStaticProps 1`] = `
             "error-without-status": "An error occurred on the server",
             "h1": "A simple example",
             "index": "About Security Developer portal information",
-            "title": "Home | next-i18next",
+            "login": "login",
+            "title": "Security for Developer",
             "to-second-page": "To second page",
           },
         },
@@ -80,26 +81,16 @@ exports[`home > renders homepage correctly 1`] = `
       <div
         class="_container_522a10"
       >
-        <header
-          class="_header_522a10"
+        <div
+          class="_header_9292e1"
         >
-          <img
-            alt="Security Developer Portal"
-            class="_borderCircle_37fb83"
-            data-nimg="1"
-            decoding="async"
-            height="144"
-            src="/_next/image?url=%2Fimages%2Fprofile.jpg&w=384&q=75"
-            srcset="/_next/image?url=%2Fimages%2Fprofile.jpg&w=256&q=75 1x, /_next/image?url=%2Fimages%2Fprofile.jpg&w=384&q=75 2x"
-            style="color: transparent;"
-            width="144"
-          />
-          <h1
-            class="_heading2Xl_37fb83"
-          >
-            Security Developer Portal
-          </h1>
-        </header>
+          <div>
+            title
+          </div>
+          <div>
+            login
+          </div>
+        </div>
         <main>
           <section
             class="_headingMd_37fb83"
@@ -177,26 +168,16 @@ exports[`home > renders homepage correctly 1`] = `
     <div
       class="_container_522a10"
     >
-      <header
-        class="_header_522a10"
+      <div
+        class="_header_9292e1"
       >
-        <img
-          alt="Security Developer Portal"
-          class="_borderCircle_37fb83"
-          data-nimg="1"
-          decoding="async"
-          height="144"
-          src="/_next/image?url=%2Fimages%2Fprofile.jpg&w=384&q=75"
-          srcset="/_next/image?url=%2Fimages%2Fprofile.jpg&w=256&q=75 1x, /_next/image?url=%2Fimages%2Fprofile.jpg&w=384&q=75 2x"
-          style="color: transparent;"
-          width="144"
-        />
-        <h1
-          class="_heading2Xl_37fb83"
-        >
-          Security Developer Portal
-        </h1>
-      </header>
+        <div>
+          title
+        </div>
+        <div>
+          login
+        </div>
+      </div>
       <main>
         <section
           class="_headingMd_37fb83"
